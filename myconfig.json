@@ -1,0 +1,30 @@
+    {
+      "inbounds": [
+       {
+        "port": 8080,
+        "protocol": "vless",
+        "settings": {
+         "clients": [
+          {
+             "id": "328fd489-66d1-44f7-bb6c-0c91f619b03c"
+             "level": 0
+             }
+            ],
+            "decryption": "none"
+          },
+          "streamSettings": {
+            "network": "ws",
+            "wsSettings": {
+              "path": "/mrali"
+              }
+            }
+          }          
+        ],
+         "outbounds": [
+           {
+             "protocol": "freedom",
+             "settings": {}
+           }
+         ]
+       }
+
